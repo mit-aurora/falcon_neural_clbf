@@ -13,6 +13,7 @@ from .segway import Segway
 from .turtlebot import TurtleBot
 from .turtlebot_2d import TurtleBot2D
 from .unicycle_docking import UnicycleDocking
+from .unicycle_unrep import UnicycleUNREP
 from .linear_satellite import LinearSatellite
 from .single_integrator_2d import SingleIntegrator2D
 from .autorally import AutoRally
@@ -30,6 +31,7 @@ __all__ = [
     "TurtleBot",
     "TurtleBot2D",
     "UnicycleDocking",
+    "UnicycleUnrep",
     "Segway",
     "LinearSatellite",
     "SingleIntegrator2D",
